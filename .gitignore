@@ -1,0 +1,82 @@
+# =========================
+# Python
+# =========================
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+
+# =========================
+# Virtual environments
+# =========================
+.env
+.venv
+env/
+venv/
+ENV/
+
+# =========================
+# Jupyter / Colab
+# =========================
+.ipynb_checkpoints/
+*.ipynb_checkpoints
+.colab/
+*.nbconvert.ipynb
+
+# =========================
+# Data files (raw & processed)
+# =========================
+data/
+datasets/
+*.csv
+*.tsv
+*.xlsx
+*.parquet
+*.feather
+
+# =========================
+# Model artifacts
+# =========================
+models/
+*.pkl
+*.joblib
+*.h5
+*.pt
+*.onnx
+
+# =========================
+# Logs & outputs
+# =========================
+logs/
+*.log
+outputs/
+results/
+
+# =========================
+# Figures & plots
+# =========================
+figures/
+plots/
+*.png
+*.jpg
+*.jpeg
+*.svg
+*.pdf
+
+# =========================
+# OS / Editor files
+# =========================
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# =========================
+# Temporary files
+# =========================
+tmp/
+temp/
+*.tmp
